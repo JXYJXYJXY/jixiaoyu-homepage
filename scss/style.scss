@@ -256,6 +256,11 @@ h1, h2, h3, h4, h5,
 	}
 }
 
+.text-left{
+	text-align:justify;
+	text-justify:distribute;
+}
+
 // Burger Menu
 .colorlib-nav-toggle {
   cursor: pointer;
