@@ -238,6 +238,23 @@ h1, h2, h3, h4, h5,
 	}
 }
 
+#colorlib-main2 {
+	width: 100%;
+	float: right;
+	@include transition(.5s);
+	@include media-breakpoint-up(lg){
+		width: 75%;
+	}
+}
+
+#colorlib-main3 {
+	width: 100%;
+	float: right;
+	@include transition(.5s);
+	@include media-breakpoint-up(lg){
+		width: 75%;
+	}
+}
 
 // Burger Menu
 .colorlib-nav-toggle {
